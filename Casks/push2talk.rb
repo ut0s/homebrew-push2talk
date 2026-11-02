@@ -1,6 +1,6 @@
 cask "push2talk" do
-  version "0.1.0"
-  sha256 "6036d3bb6e9a40dab990c0142e1731d3e7811f0a01ea03dbe8662b2ad3081316"
+  version "0.1.1"
+  sha256 "081e88e9aedd49714493b9900d0bc7a43dcf9501da2612323ff014b89eee08b9"
 
   url "https://github.com/ut0s/homebrew-push2talk/releases/download/v#{version}/Push2Talk-#{version}.zip"
   name "Push2Talk"
