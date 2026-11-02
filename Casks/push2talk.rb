@@ -1,6 +1,6 @@
 cask "push2talk" do
-  version "0.1.1"
-  sha256 "081e88e9aedd49714493b9900d0bc7a43dcf9501da2612323ff014b89eee08b9"
+  version "0.1.2"
+  sha256 "77f826664a9c5ba28bca27b0bacfdde5237abab462740c14ee5c4589d3de1cd4"
 
   url "https://github.com/ut0s/homebrew-push2talk/releases/download/v#{version}/Push2Talk-#{version}.zip"
   name "Push2Talk"
@@ -12,7 +12,7 @@ cask "push2talk" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   app "Push2Talk.app"
 
   zap trash: "~/Library/Preferences/com.ut0s.Push2Talk.plist"
